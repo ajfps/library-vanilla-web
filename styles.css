@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #eff3ea;
+}
+
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  background-color: #d9dfc6;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+nav h1 {
+  font-size: 24px;
+  color: black;
+}
+
+nav button {
+  background: transparent;
+  background-color: #fff2c2;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-weight: bold;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+}
+
+.library {
+  margin-top: 100px;
+}
+
+section .container {
+  background-color: #fffdf0;
+  display: flex;
+  padding: 12px;
+  border-radius: 12px;
+  gap: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.book-container {
+  background-color: #fff2c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 48px;
+  max-width: 20%;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.book-container h1 {
+  font-size: 24px;
+}
+
+.book-container h2,
+h3,
+h4 {
+  font-size: 16px;
+}
+
+dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 48px;
+  font-size: 24px;
+  background-color: #d9dfc6;
+  border: none;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+form h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-row div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 85px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+form input{
+  padding: 10px 12px;
+  border: none;
+  border-radius: 12px;
+}
+
+form button{
+    background: transparent;
+  background-color: #fff2c2;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-weight: bold;
+}
