@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <dialog open>
+    <dialog>
+      <button autofocus class="close-button">Close</button>
       <form method="dialog">
         <h1>Enter Book Details</h1>
         <div class="form-row">
@@ -30,10 +31,11 @@
           <label for="haveRead">Have Read</label>
           <div>
             <label>
-              <input type="radio" name="choice" value="yes" id="choice" /> Yes
+              <input type="radio" name="choice" value="yes" id="choice-yes" />
+              Yes
             </label>
             <label>
-              <input type="radio" name="choice" value="no" id="choice" /> No
+              <input type="radio" name="choice" value="no" id="choice-no" /> No
             </label>
           </div>
         </div>
@@ -43,7 +45,7 @@
     <nav>
       <div class="container">
         <h1>Project Library</h1>
-        <button>Add New Book</button>
+        <button class="open-dialog">Add New Book</button>
       </div>
     </nav>
     <section class="library">
